@@ -3,8 +3,7 @@ package states.integerStates
 import IntegerDetector
 
 interface IntegerState {
-    fun setDetector(detector: IntegerDetector)
-    fun typedIntegerGreaterThanZero(input: String)
-    fun typedZero(input: String)
-    fun typedNotAnInteger(input: String)
+    fun typedIntegerGreaterThanZero(input: String, detector: IntegerDetector)
+    fun typedZero(input: String, detector: IntegerDetector)
+    fun typedNotAnInteger(input: String, detector: IntegerDetector)
 }

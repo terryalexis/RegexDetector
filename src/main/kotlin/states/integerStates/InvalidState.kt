@@ -3,21 +3,21 @@ package states.integerStates
 import IntegerDetector
 
 class InvalidState: IntegerState {
-    private var detector: IntegerDetector = IntegerDetector()
 
-    override fun setDetector(detector: IntegerDetector) {
-        this.detector = detector
+    override fun typedIntegerGreaterThanZero(input: String, detector: IntegerDetector) {
+        if(!detector.hasStartingValue) {
+            detector.hasStartingValue = true
+            detector.state = detector.validState
+        }
     }
 
-    override fun typedIntegerGreaterThanZero(input: String) {
-        TODO("Not yet implemented")
+    override fun typedZero(input: String, detector: IntegerDetector) {
+        if(detector.hasStartingValue) {
+            detector.state = detector.validState
+        }
     }
 
-    override fun typedZero(input: String) {
-        TODO("Not yet implemented")
-    }
-
-    override fun typedNotAnInteger(input: String) {
-        TODO("Not yet implemented")
+    override fun typedNotAnInteger(input: String, detector: IntegerDetector) {
+        // Do nothing -- state is still invalid
     }
 }
