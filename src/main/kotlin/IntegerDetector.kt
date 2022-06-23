@@ -8,6 +8,9 @@ class IntegerDetector: Detector {
     var hasStartingValue: Boolean = false
 
     override fun matchesPattern(input: String): Boolean {
+        if(input == "") {
+            hasStartingValue = false
+        }
         val splitInput = input.toCharArray()
         for(symbol: Char in splitInput) {
             val symbolAscii = symbol.code

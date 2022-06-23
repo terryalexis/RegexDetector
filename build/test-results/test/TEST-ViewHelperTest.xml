@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ViewHelperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-23T07:51:34" hostname="DESKTOP-Q858G2D" time="0.226">
+  <properties/>
+  <testcase name="detectPatternReturnsIntegerIfMatchFound()" classname="ViewHelperTest" time="0.217"/>
+  <testcase name="detectPatternReturnsEmptyStringIfNoMatches()" classname="ViewHelperTest" time="0.002"/>
+  <testcase name="getMatchingPattern()" classname="ViewHelperTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

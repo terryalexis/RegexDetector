@@ -10,8 +10,17 @@ internal class ViewHelperTest {
         assertEquals("", viewHelper.matchingPattern)
     }
 
-//    @Test
-//    fun detectPattern() {
-//
-//    }
+    @Test
+    fun detectPatternReturnsEmptyStringIfNoMatches() {
+        var viewHelper = ViewHelper()
+        viewHelper.detectPattern("asdf")
+        assertEquals("", viewHelper.matchingPattern)
+    }
+
+    @Test
+    fun detectPatternReturnsIntegerIfMatchFound() {
+        var viewHelper = ViewHelper()
+        viewHelper.detectPattern("123")
+        assertSame("Integer", viewHelper.matchingPattern)
+    }
 }

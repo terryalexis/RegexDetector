@@ -249,3 +249,9 @@ dea/.gitignore
 /src/main/kotlin/states/integerStates/InvalidState.kt
 /src/main/kotlin/states/integerStates/ValidState.kt
 /src/main/kotlin/states/integerStates/IntegerState.kt
+/src/test/kotlin/states/integerStates/InvalidStateTest.java
+/src/test/kotlin/states/integerStates/InvalidStateTest.kt
+/src/test/kotlin/states/integerStates/ValidStateTest.java
+/src/test/kotlin/states/integerStates/ValidStateTest.kt
+/src/test/kotlin/IntegerDetectorTest.java
+/src/test/kotlin/IntegerDetectorTest.kt

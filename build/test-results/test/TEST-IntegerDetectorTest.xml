@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntegerDetectorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-23T07:51:34" hostname="DESKTOP-Q858G2D" time="0.117">
+  <properties/>
+  <testcase name="matchesPatternReturnsFalseIfNotInteger()" classname="IntegerDetectorTest" time="0.098"/>
+  <testcase name="matchesPatternReturnsTrueIfInteger()" classname="IntegerDetectorTest" time="0.003"/>
+  <testcase name="patternToString()" classname="IntegerDetectorTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="states.integerStates.InvalidStateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-06-23T07:51:34" hostname="DESKTOP-Q858G2D" time="0.014">
+  <properties/>
+  <testcase name="typedZeroDoesNotChangeStateIfStartingValueDoesNotExist()" classname="states.integerStates.InvalidStateTest" time="0.002"/>
+  <testcase name="testTypedIntegerGreaterThanZeroCorrectlyKeepsStateInvalid()" classname="states.integerStates.InvalidStateTest" time="0.001"/>
+  <testcase name="typedNotAnIntegerDoesNotChangeState()" classname="states.integerStates.InvalidStateTest" time="0.002"/>
+  <testcase name="typedZeroDoesNotChangeStateIfStartingValueExists()" classname="states.integerStates.InvalidStateTest" time="0.001"/>
+  <testcase name="testTypedIntegerGreaterThanZeroCorrectlyChangesStateToValid()" classname="states.integerStates.InvalidStateTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

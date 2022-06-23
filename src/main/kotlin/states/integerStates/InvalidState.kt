@@ -12,8 +12,8 @@ class InvalidState: IntegerState {
     }
 
     override fun typedZero(input: String, detector: IntegerDetector) {
-        if(detector.hasStartingValue) {
-            detector.state = detector.validState
+        if(!detector.hasStartingValue) {
+            detector.hasStartingValue = true
         }
     }
 
