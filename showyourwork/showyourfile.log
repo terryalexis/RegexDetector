@@ -242,3 +242,10 @@ dea/.gitignore
 /src/main/kotlin/IntegerDetector.kt
 /src/test/kotlin/ViewHelperTest.java
 /src/test/kotlin/ViewHelperTest.kt
+/src/main/kotlin/IntegerState.kt
+/src/main/kotlin/integerStates/IntegerState.kt
+/src/main/kotlin/integerStates/ValidState.kt
+/src/main/kotlin/integerStates/InvalidState.kt
+/src/main/kotlin/states/integerStates/InvalidState.kt
+/src/main/kotlin/states/integerStates/ValidState.kt
+/src/main/kotlin/states/integerStates/IntegerState.kt
